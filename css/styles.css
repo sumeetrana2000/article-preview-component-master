@@ -1,0 +1,112 @@
+body{
+    background-color: hsl(210, 46%, 95%);
+    font-family: 'Manrope', sans-serif;
+}
+
+.container{
+    margin-top: 10%;
+}
+
+.drawer{
+    width: 30%;
+    padding: 0px;
+    border-radius: 15px 0 0 15px;
+}
+
+.text{
+    background-color: white;
+    border-radius: 0 15px 15px 0;
+    font-weight: 700;
+    color: hsl(214, 17%, 51%);
+    width: 38.5%;
+    padding: 2.5%;
+}
+
+h4{
+    font-weight: 700;
+    color: hsl(217, 19%, 35%);
+}
+
+.michelle{
+    border-radius: 50%;
+    width: 11%;
+    float: left;
+    margin-right: 3.5%;
+}
+
+.share{
+    padding-top: 5%;
+}
+
+.p{
+    color: hsl(212, 23%, 69%);
+}
+
+.btn{
+    background-color: hsl(210, 46%, 95%);
+    border-radius: 50%;
+    position: relative;
+    left: 56%;
+    border-style: none;
+}
+
+.btn:hover{
+    background-color: hsl(214, 17%, 51%);
+}
+
+li{
+    display: inline-block;
+}
+
+.dropdown-menu{
+    width: 16rem;
+}
+
+.dropup{
+    display: inline-block;
+    position: relative;
+    left: 45%;
+}
+
+.sh{
+    margin-left: 9%;
+}
+
+@media(max-width: 1200px){
+    .btn{
+        position: relative;
+        left: 34%;
+    }
+
+    .dropup{
+        display: inline-block;
+        position: relative;
+        left: 28%;
+    }
+    
+}
+
+@media(max-width:768px){
+    .drawer{
+        width: auto;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .text{
+        width: auto;
+        border-radius: 0 0 15px 15px;
+        padding: 8%;
+    }
+
+    .btn{
+        position: relative;
+        left: 55%;
+    }
+
+    .dropup{
+        display: inline-block;
+        position: relative;
+        left: 45%;
+    }
+    
+}
